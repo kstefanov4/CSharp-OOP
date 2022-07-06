@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kstefanov\\Downloads\\02. Animal Farm_Skeleton\\AnimalFarm\\PizzaCalories\\PizzaCalories.csproj": {}
+    "C:\\GitHub\\CSharp-OOP\\Encapsulation\\PizzaCalories\\PizzaCalories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kstefanov\\Downloads\\02. Animal Farm_Skeleton\\AnimalFarm\\PizzaCalories\\PizzaCalories.csproj": {
+    "C:\\GitHub\\CSharp-OOP\\Encapsulation\\PizzaCalories\\PizzaCalories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kstefanov\\Downloads\\02. Animal Farm_Skeleton\\AnimalFarm\\PizzaCalories\\PizzaCalories.csproj",
+        "projectUniqueName": "C:\\GitHub\\CSharp-OOP\\Encapsulation\\PizzaCalories\\PizzaCalories.csproj",
         "projectName": "PizzaCalories",
-        "projectPath": "C:\\Users\\kstefanov\\Downloads\\02. Animal Farm_Skeleton\\AnimalFarm\\PizzaCalories\\PizzaCalories.csproj",
-        "packagesPath": "C:\\Users\\kstefanov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kstefanov\\Downloads\\02. Animal Farm_Skeleton\\AnimalFarm\\PizzaCalories\\obj\\",
+        "projectPath": "C:\\GitHub\\CSharp-OOP\\Encapsulation\\PizzaCalories\\PizzaCalories.csproj",
+        "packagesPath": "C:\\Users\\35988\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\CSharp-OOP\\Encapsulation\\PizzaCalories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kstefanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\35988\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

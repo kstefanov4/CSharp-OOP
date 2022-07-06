@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OTlwb9X7SwlKbS4bMtQjG7c/+dfa+OUgMNUwYYaArn7mMMGarzwMDv6xJTUc8qj86Q+70O4EEo1RJFFqG/SN9w==",
+  "dgSpecHash": "lkDzRdJlV29w2wsu1l4G5ser0fm4cyM19AuGz6pdrL0Pyq3dwXL4ZQvRgnA3tFb08JKh38ioyTBv67okFpSZ0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kstefanov\\Downloads\\02. Animal Farm_Skeleton\\AnimalFarm\\PizzaCalories\\PizzaCalories.csproj",
+  "projectFilePath": "C:\\GitHub\\CSharp-OOP\\Encapsulation\\PizzaCalories\\PizzaCalories.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

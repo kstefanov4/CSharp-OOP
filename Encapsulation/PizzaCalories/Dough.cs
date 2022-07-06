@@ -12,7 +12,7 @@ namespace PizzaCalories
         internal Dictionary<string, decimal> flourTypeModifiers = new Dictionary<string, decimal>
         {
             { "White",1.5m},
-            { "Wholegrain",1.5m}
+            { "Wholegrain",1.0m}
         };
         internal Dictionary<string, decimal> bakingTechniqueModifiers = new Dictionary<string, decimal>
         {

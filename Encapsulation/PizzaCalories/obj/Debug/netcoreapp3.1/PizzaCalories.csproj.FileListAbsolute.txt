@@ -12,3 +12,17 @@ C:\Users\kstefanov\Downloads\02. Animal Farm_Skeleton\AnimalFarm\PizzaCalories\o
 C:\Users\kstefanov\Downloads\02. Animal Farm_Skeleton\AnimalFarm\PizzaCalories\obj\Debug\netcoreapp3.1\PizzaCalories.dll
 C:\Users\kstefanov\Downloads\02. Animal Farm_Skeleton\AnimalFarm\PizzaCalories\obj\Debug\netcoreapp3.1\PizzaCalories.pdb
 C:\Users\kstefanov\Downloads\02. Animal Farm_Skeleton\AnimalFarm\PizzaCalories\obj\Debug\netcoreapp3.1\PizzaCalories.genruntimeconfig.cache
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\bin\Debug\netcoreapp3.1\PizzaCalories.exe
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\bin\Debug\netcoreapp3.1\PizzaCalories.deps.json
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\bin\Debug\netcoreapp3.1\PizzaCalories.runtimeconfig.json
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\bin\Debug\netcoreapp3.1\PizzaCalories.runtimeconfig.dev.json
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\bin\Debug\netcoreapp3.1\PizzaCalories.dll
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\bin\Debug\netcoreapp3.1\PizzaCalories.pdb
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\obj\Debug\netcoreapp3.1\PizzaCalories.csproj.AssemblyReference.cache
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\obj\Debug\netcoreapp3.1\PizzaCalories.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\obj\Debug\netcoreapp3.1\PizzaCalories.AssemblyInfoInputs.cache
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\obj\Debug\netcoreapp3.1\PizzaCalories.AssemblyInfo.cs
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\obj\Debug\netcoreapp3.1\PizzaCalories.csproj.CoreCompileInputs.cache
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\obj\Debug\netcoreapp3.1\PizzaCalories.dll
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\obj\Debug\netcoreapp3.1\PizzaCalories.pdb
+C:\GitHub\CSharp-OOP\Encapsulation\PizzaCalories\obj\Debug\netcoreapp3.1\PizzaCalories.genruntimeconfig.cache

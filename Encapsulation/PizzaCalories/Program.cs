@@ -6,14 +6,27 @@ namespace PizzaCalories
     {
         static void Main(string[] args)
         {
-            Dough dough = new Dough("White", "Chewy", 100);
-            Console.WriteLine(dough.BakingTechniques);
-            Console.WriteLine(dough.FlourType);
-            Console.WriteLine(dough.Weight);
-            Console.WriteLine(dough.GetTotalCalories());
+            try
+            {
+                Pizza pizza = new Pizza(Console.ReadLine().Split(" ")[1]);
+                string doughInfo = Console.ReadLine();
+                Dough dough = new Dough(doughInfo.Split(" ")[1], doughInfo.Split(" ")[2], int.Parse(doughInfo.Split(" ")[3]));
+                pizza.Dough = dough;
+                string toppingInfo = Console.ReadLine();
 
-            Topping topping = new Topping("Krenvirshi", 30);
-            Console.WriteLine(topping.GetTotalCalories());
+                while (toppingInfo != "END")
+                {
+                    Topping topping = new Topping(toppingInfo.Split(" ")[1], int.Parse(toppingInfo.Split(" ")[2]));
+                    pizza.AddTopping(topping);
+                    toppingInfo = Console.ReadLine();
+                }
+
+                Console.WriteLine($"{pizza.Name} - {pizza.TotalCalories()} Calories.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
