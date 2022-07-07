@@ -11,14 +11,14 @@ namespace PizzaCalories
 
         internal Dictionary<string, decimal> flourTypeModifiers = new Dictionary<string, decimal>
         {
-            { "White",1.5m},
-            { "Wholegrain",1.0m}
+            { "white",1.5m},
+            { "wholegrain",1.0m}
         };
         internal Dictionary<string, decimal> bakingTechniqueModifiers = new Dictionary<string, decimal>
         {
-            { "Crispy",0.9m},
-            { "Chewy",1.1m},
-            { "Homemade",1.0m}
+            { "crispy",0.9m},
+            { "chewy",1.1m},
+            { "homemade",1.0m}
         };
         private string flourType;
         private string bakingTechniques;
@@ -39,7 +39,7 @@ namespace PizzaCalories
             }
             set 
             {
-                if (!flourTypeModifiers.ContainsKey(value))
+                if (!flourTypeModifiers.ContainsKey(value.ToLower()))
                 {
                     throw new ArgumentException(InvalidTypeException);
                 }
@@ -55,7 +55,7 @@ namespace PizzaCalories
             }
             set 
             {
-                if (!bakingTechniqueModifiers.ContainsKey(value))
+                if (!bakingTechniqueModifiers.ContainsKey(value.ToLower()))
                 {
                     throw new ArgumentException(InvalidTypeException);
                 }
@@ -81,7 +81,7 @@ namespace PizzaCalories
 
         public decimal GetTotalCalories()
         {
-            decimal calories = 2 * Weight * flourTypeModifiers[flourType] * bakingTechniqueModifiers[BakingTechniques];
+            decimal calories = 2 * Weight * flourTypeModifiers[flourType.ToLower()] * bakingTechniqueModifiers[BakingTechniques.ToLower()];
             return calories ;
         }
 
