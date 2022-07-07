@@ -9,10 +9,10 @@ namespace PizzaCalories
 
         internal Dictionary<string, decimal> topingModifiers = new Dictionary<string, decimal>
         {
-            { "Meat",1.2m},
-            { "Veggies",0.8m},
-            { "Cheese",1.1m},
-            { "Sauce",0.9m},
+            { "meat",1.2m},
+            { "veggies",0.8m},
+            { "cheese",1.1m},
+            { "sauce",0.9m},
         };
 
         private string toppingType;
@@ -32,7 +32,7 @@ namespace PizzaCalories
             }
             set 
             {
-                if (!topingModifiers.ContainsKey(value))
+                if (!topingModifiers.ContainsKey(value.ToLower()))
                 {
                     throw new ArgumentException($"Cannot place {value} on top of your pizza.");
                 }
@@ -57,7 +57,7 @@ namespace PizzaCalories
 
         public decimal GetTotalCalories()
         {
-            return 2 * Weight * topingModifiers[toppingType];
+            return 2 * Weight * topingModifiers[toppingType.ToLower()];
         }
 
     }
